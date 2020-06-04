@@ -56,7 +56,8 @@ RUN apt-get update -qq > /dev/null && \
         unzip \
         wget \
         zip \
-        zlib1g-dev 
+        zlib1g-dev \
+	net-tools
 
 # Install Android SDK
 RUN echo "Installing sdk tools ${ANDROID_SDK_TOOLS_VERSION}" && \
