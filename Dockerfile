@@ -57,6 +57,7 @@ RUN apt-get update -qq > /dev/null && \
         wget \
         zip \
         zlib1g-dev \
+	openssh-client \
 	net-tools
 
 # Install Android SDK
